@@ -8,6 +8,7 @@ Redis is used to store previously notified PRs and schedule tasks.
 
 * Notify on a specific discord channel when a Pull request has been created
 * Notify on a specific discord channel when a new issue has been created
+* Ping command to be aware if the bot is alive or not
 
 ## How to use it?
 
