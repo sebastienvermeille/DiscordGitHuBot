@@ -1,6 +1,7 @@
 {
-  "name": "discordgithubot",
+  "name": "discord-githubot",
   "version": "0.0.1",
+  "private": true,
   "main": "dist/index.js",
   "author": "@cookiecodedev",
   "license": "MIT",
@@ -39,6 +40,5 @@
     "watch:start": "tsc-watch --onSuccess \"npm run start\"",
     "format": "prettier --write \"src/\""
   },
-  "prettier": "@sapphire/prettier-config",
-  "private": true
+  "prettier": "@sapphire/prettier-config"
 }
